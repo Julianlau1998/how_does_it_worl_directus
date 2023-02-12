@@ -6,6 +6,4 @@ ADD package.json /src
 
 RUN yarn install
 
-ADD .env /src
-
 CMD ["yarn", "start"]
